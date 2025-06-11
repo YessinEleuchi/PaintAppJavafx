@@ -1,9 +1,6 @@
 # 🎨 Draw - Application de Dessin JavaFX
 
-![Java](https://img.shields.io/badge/Java-24-orange)
-![JavaFX](https://img.shields.io/badge/JavaFX-17.0.6-blue)
-![Maven](https://img.shields.io/badge/Maven-3.13.0-red)
-![License](https://img.shields.io/badge/License-MIT-green)
+![Java](https://img.shields.io/badge/Java-24-orange) ![JavaFX](https://img.shields.io/badge/JavaFX-17.0.6-blue) ![Maven](https://img.shields.io/badge/Maven-3.13.0-red) ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 📝 Description
 
@@ -30,7 +27,7 @@ Draw est une application de dessin moderne développée en JavaFX, offrant une i
 
 1. Clonez le repository :
 ```bash
-git clone [URL_DU_REPO]
+git clone https://github.com/YessinEleuchi/PaintAppJavafx.git
 ```
 
 2. Naviguez vers le dossier du projet :
@@ -67,19 +64,9 @@ Draw/
 ```
 
 ## 🖼️ Captures d'écran
-
 ![Interface principale](src/main/resources/com/example/demo1/images/screenshot1.png)
 ![Fonctionnalités de dessin](src/main/resources/com/example/demo1/images/screenshot2.png)
 
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! N'hésitez pas à :
-
-1. Fork le projet
-2. Créer une branche pour votre fonctionnalité (`git checkout -b feature/AmazingFeature`)
-3. Commit vos changements (`git commit -m 'Add some AmazingFeature'`)
-4. Push vers la branche (`git push origin feature/AmazingFeature`)
-5. Ouvrir une Pull Request
 
 ## 📄 Licence
 
@@ -87,12 +74,7 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## 👥 Auteurs
 
-- Votre Nom - Développeur Principal
-
-## 📞 Contact
-
-Pour toute question ou suggestion, n'hésitez pas à ouvrir une issue dans le repository.
-
----
+- Yessine ELEUCHI
+- Oussema GHORBEL
 
 ⭐ N'hésitez pas à donner une étoile au projet si vous l'appréciez ! 
