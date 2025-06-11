@@ -1,0 +1,36 @@
+2025-06-10T22:30:52.359492600 [LOG File] Stratégie de log changée : Fichier
+2025-06-10T22:31:02.001564100 [LOG File] Stratégie de log changée : Fichier
+2025-06-10T22:31:02.904392600 [LOG File] Forme créée : RECTANGLE
+2025-06-10T22:31:02.908379900 [LOG File] Forme créée : RECTANGLE
+2025-06-10T22:31:03.866791100 [LOG File] Forme créée : RECTANGLE
+2025-06-10T22:31:03.871770600 [LOG File] Forme créée : RECTANGLE
+2025-06-10T22:31:06.073262700 [LOG File] Dessin sauvegardé.
+2025-06-10T22:37:29.388158800 [LOG File] Stratégie de log changée : Fichier
+2025-06-10T22:38:24.553951700 [LOG File] Stratégie de log changée : Fichier
+2025-06-10T22:38:30.568803600 [LOG File] Stratégie de log changée : Fichier
+2025-06-10T22:44:31.205572600 [LOG File] Stratégie de log changée : Fichier
+2025-06-10T23:02:41.178253500 [LOG File] Stratégie de log changée : Fichier
+2025-06-10T23:02:47.340143200 [LOG File] RECTANGLE activé.
+2025-06-10T23:02:48.338404600 [LOG File] Forme créée : RECTANGLE
+2025-06-10T23:02:48.345429900 [LOG File] Forme créée : RECTANGLE
+2025-06-10T23:02:49.675869 [LOG File] Forme créée : RECTANGLE
+2025-06-10T23:02:49.681889100 [LOG File] Forme créée : RECTANGLE
+2025-06-10T23:02:52.323542900 [LOG File] Forme créée : RECTANGLE
+2025-06-10T23:02:52.327533900 [LOG File] Forme créée : RECTANGLE
+2025-06-10T23:02:54.132036900 [LOG File] Forme créée : RECTANGLE
+2025-06-10T23:02:54.138039100 [LOG File] Forme créée : RECTANGLE
+2025-06-10T23:03:22.321716700 [LOG File] Stratégie de log changée : Fichier
+2025-06-10T23:03:24.047022500 [LOG File] RECTANGLE activé.
+2025-06-10T23:03:25.181666300 [LOG File] Forme créée : RECTANGLE
+2025-06-10T23:03:25.189658200 [LOG File] Forme créée : RECTANGLE
+2025-06-10T23:03:26.371772600 [LOG File] Forme créée : RECTANGLE
+2025-06-10T23:03:26.377402500 [LOG File] Forme créée : RECTANGLE
+2025-06-10T23:03:37.015135700 [LOG File] ✅ Logs exportés vers : C:\Users\asus\Desktop\test.txt
+2025-06-10T23:15:00.599563700 [LOG File] Stratégie de log changée : Fichier
+2025-06-10T23:15:03.957743300 [LOG File] Exportation annulée.
+2025-06-10T23:15:07.656143800 [LOG File] Sauvegarde annulée.
+2025-06-10T23:15:40.352220 [LOG File] Stratégie de log changée : Fichier
+2025-06-10T23:15:44.034297600 [LOG File] Exportation annulée.
+2025-06-10T23:15:47.121503800 [LOG File] Sauvegarde annulée.
+2025-06-11T00:37:16.817798700 [LOG File] Stratégie de log changée : Fichier
+2025-06-11T00:37:21.672795900 [LOG File] Sauvegarde annulée.

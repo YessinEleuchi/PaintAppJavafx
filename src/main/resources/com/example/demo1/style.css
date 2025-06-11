@@ -1,0 +1,155 @@
+/* Racine */
+.root {
+    -fx-font-family: "Roboto", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    -fx-background-color: #f0f4f8;
+}
+
+/* Barre supérieure (VBox) */
+#topBar {
+    -fx-background-color: linear-gradient(to right, #1e3c72, #2a5298);
+    -fx-padding: 16 20 16 20;
+    -fx-spacing: 16;
+}
+
+/* Ligne horizontale (HBox) */
+HBox {
+    -fx-alignment: center-left;
+    -fx-spacing: 16;
+}
+
+/* Boutons */
+Button {
+    -fx-background-color: #2a5298;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 10 18;
+    -fx-background-radius: 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(42, 82, 152, 0.3), 6, 0.4, 0, 2);
+    -fx-transition: all 0.3s ease-in-out;
+}
+
+Button:hover {
+    -fx-background-color: #1e3c72;
+    -fx-effect: dropshadow(gaussian, rgba(30, 60, 114, 0.5), 8, 0.5, 0, 3);
+}
+
+Button:pressed {
+    -fx-background-color: #1a2e5a;
+    -fx-effect: dropshadow(gaussian, rgba(26, 46, 90, 0.6), 10, 0.6, 0, 4);
+}
+
+/* Labels */
+Label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 16px;
+    -fx-font-weight: 500;
+}
+
+#topBar Label {
+    -fx-text-fill: #d1e0ff;
+}
+
+#logListView Label {
+    -fx-text-fill: #1e3c72;
+    -fx-font-size: 18px;
+}
+
+/* Zone de dessin */
+#drawingPane {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e0e0e0;
+    -fx-border-width: 1;
+    -fx-border-radius: 12;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.05), 8, 0.3, 0, 4);
+}
+
+/* Aide en bas */
+#helpLabel {
+    -fx-background-color: rgba(30, 60, 114, 0.9);
+    -fx-text-fill: #ffffff;
+    -fx-padding: 12 18;
+    -fx-background-radius: 12;
+    -fx-font-size: 14px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 6, 0.4, 0, 2);
+    -fx-transition: opacity 0.3s ease;
+}
+
+#helpLabel:hover {
+    -fx-opacity: 0.95;
+}
+
+/* ListView (logs) */
+ListView {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #e0e0e0;
+    -fx-border-radius: 8;
+    -fx-padding: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.05), 6, 0.3, 0, 2);
+}
+
+ListView .list-cell {
+    -fx-padding: 10 15;
+    -fx-font-size: 13px;
+    -fx-font-family: "Roboto Mono", "Consolas", monospace;
+}
+
+ListView .list-cell:odd {
+    -fx-background-color: #f9fafb;
+}
+
+ListView .list-cell:selected {
+    -fx-background-color: #2a5298;
+    -fx-text-fill: #ffffff;
+}
+
+/* ColorPicker */
+ColorPicker {
+    -fx-background-color: #2a5298;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 8 14;
+    -fx-background-radius: 12;
+    -fx-border-radius: 12;
+    -fx-effect: dropshadow(gaussian, rgba(42, 82, 152, 0.3), 6, 0.4, 0, 2);
+}
+
+ColorPicker:hover {
+    -fx-background-color: #1e3c72;
+}
+
+/* ComboBox pour les formes */
+#shapeSelector {
+    -fx-background-color: #2a5298;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 10 18;
+    -fx-background-radius: 12px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(42, 82, 152, 0.3), 6, 0.4, 0, 2);
+    -fx-transition: all 0.3s ease-in-out;
+}
+
+#shapeSelector:hover {
+    -fx-background-color: #1e3c72;
+    -fx-effect: dropshadow(gaussian, rgba(30, 60, 114, 0.5), 8, 0.5, 0, 3);
+}
+
+#shapeSelector .list-cell {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #2a5298;
+    -fx-padding: 10 15;
+}
+
+#shapeSelector .list-cell:hover {
+    -fx-background-color: #1e3c72;
+}
+
+#shapeSelector .arrow-button {
+    -fx-background-color: transparent;
+}
+
+#shapeSelector .arrow {
+    -fx-background-color: #ffffff;
+}

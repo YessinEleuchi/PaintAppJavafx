@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+<?import java.lang.String?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.demo1.controller.DrawingController"
+            stylesheets="@style.css">
+
+    <top>
+        <VBox fx:id="topBar" spacing="16" style="-fx-padding: 16 20 16 20; -fx-background-color: linear-gradient(to right, #1e3c72, #2a5298);">
+            <!-- Section des outils -->
+            <HBox spacing="16" alignment="CENTER_LEFT">
+                <Button fx:id="borderBtn" text="Bordure" onAction="#toggleBorder">
+                    <graphic><FontIcon iconLiteral="fas-border-style"/></graphic>
+                </Button>
+                <Button fx:id="fillBtn" text="Remplissage" onAction="#toggleFill">
+                    <graphic><FontIcon iconLiteral="fas-fill-drip"/></graphic>
+                </Button>
+                <Button fx:id="shadowBtn" text="Ombre" onAction="#toggleShadow">
+                    <graphic><FontIcon iconLiteral="fas-cloud"/></graphic>
+                </Button>
+                <ColorPicker fx:id="colorPicker" prefWidth="140" />
+            </HBox>
+
+            <!-- Section des actions -->
+            <HBox spacing="16" alignment="CENTER_LEFT">
+                <Button fx:id="saveBtn" text="Sauvegarder" onAction="#onSaveBtn">
+                    <graphic><FontIcon iconLiteral="fas-save"/></graphic>
+                </Button>
+                <Button fx:id="shareBtn" text="Partager" onAction="#onShareBtn">
+                    <graphic><FontIcon iconLiteral="fas-share-alt"/></graphic>
+                </Button>
+                <Button fx:id="undoBtn" text="Annuler" onAction="#onUndoBtn">
+                    <graphic><FontIcon iconLiteral="fas-undo"/></graphic>
+                </Button>
+                <Button fx:id="redoBtn" text="Refaire" onAction="#onRedoBtn">
+                    <graphic><FontIcon iconLiteral="fas-redo"/></graphic>
+                </Button>
+                <Button fx:id="openButton" text="Ouvrir" onAction="#onOpen">
+                    <graphic><FontIcon iconLiteral="fas-folder-open"/></graphic>
+                </Button>
+            </HBox>
+
+            <!-- Section des formes -->
+            <HBox spacing="16" alignment="CENTER_LEFT">
+                <Button fx:id="rectangleButton" text="Rectangle" onAction="#onRectangle">
+                    <graphic><FontIcon iconLiteral="fas-square"/></graphic>
+                </Button>
+                <Button fx:id="circleButton" text="Cercle" onAction="#onCircle">
+                    <graphic><FontIcon iconLiteral="fas-circle"/></graphic>
+                </Button>
+                <Button fx:id="lineButton" text="Ligne" onAction="#onLine">
+                    <graphic><FontIcon iconLiteral="fas-minus"/></graphic>
+                </Button>
+                <Button fx:id="triangleButton" text="Triangle" onAction="#onTriangle">
+                    <graphic><FontIcon iconLiteral="fas-play"/></graphic>
+                </Button>
+                <Button fx:id="logsButton" text="Journaux" onAction="#onLogs">
+                    <graphic><FontIcon iconLiteral="fas-list"/></graphic>
+                </Button>
+                <Button fx:id="shortestPathButton" text="Chemin" onAction="#onShortestPath">
+                    <graphic><FontIcon iconLiteral="fas-route"/></graphic>
+                </Button>
+            </HBox>
+        </VBox>
+    </top>
+
+    <center>
+        <StackPane>
+            <Pane fx:id="drawingPane" prefWidth="800" prefHeight="550" minWidth="600" minHeight="400" maxWidth="1200" maxHeight="800"
+                  style="-fx-background-color: #ffffff; -fx-border-color: #e0e0e0; -fx-border-width: 1; -fx-border-radius: 12;"/>
+            <Label fx:id="helpLabel" text="Bienvenue ! Cliquez pour dessiner." StackPane.alignment="BOTTOM_CENTER"
+                   style="-fx-background-color: rgba(30, 60, 114, 0.9); -fx-text-fill: #ffffff; -fx-padding: 12 18; -fx-background-radius: 12;"/>
+        </StackPane>
+    </center>
+
+    <right>
+        <VBox spacing="12" prefWidth="300" minWidth="250" maxWidth="350" style="-fx-padding: 16 20 16 20; -fx-background-color: #ffffff;">
+            <Button fx:id="exportLogBtn" text="Exporter" onAction="#onExportLogs">
+                <graphic><FontIcon iconLiteral="fas-file-export"/></graphic>
+            </Button>
+            <Label text="Journaux" style="-fx-font-size: 18px; -fx-font-weight: bold; -fx-text-fill: #1e3c72;"/>
+            <ListView fx:id="logListView" prefHeight="500" minHeight="300" maxHeight="700"/>
+        </VBox>
+    </right>
+</BorderPane>
